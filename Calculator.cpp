@@ -18,6 +18,10 @@ public:
     {
         return a - b;
     }
+    int divide()
+    {
+        return a / b;
+    }
 };
 
 int main()
@@ -25,4 +29,5 @@ int main()
     Calculator calc = Calculator(4, 2);
     cout << calc.sum();
     cout << calc.difference();
+    cout << calc.divide();
 }
