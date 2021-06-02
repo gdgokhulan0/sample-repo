@@ -13,6 +13,9 @@ public:
     int sum()
     {
         return a + b;
+    int difference()
+    {
+        return a - b;
     }
 };
 
@@ -20,4 +23,5 @@ int main()
 {
     Calculator calc = Calculator(4, 2);
     cout << calc.sum();
+    cout << calc.difference();
 }
