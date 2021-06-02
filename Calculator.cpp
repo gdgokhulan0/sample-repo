@@ -5,14 +5,19 @@ class Calculator
 {
 public:
     int a, b;
-    Calculator(int a, int b)
+    Calculator(int x, int y)
     {
-        this.a = a;
-        this.b = b;
+        a = x;
+        b = y;
+    }
+    int difference()
+    {
+        return a - b;
     }
 };
 
 int main()
 {
-    Calculator calc = new Calculator(4, 2);
+    Calculator calc = Calculator(4, 2);
+    cout << calc.difference();
 }
