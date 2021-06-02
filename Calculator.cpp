@@ -13,6 +13,7 @@ public:
     int sum()
     {
         return a + b;
+    }
     int difference()
     {
         return a - b;
