@@ -6,6 +6,7 @@ class Calculator extends SimpleCalculator{
     }
 
     add(){
+        //adds x and y
         return this.x+this.y;
     }
     sub(){
