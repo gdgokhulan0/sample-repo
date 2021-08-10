@@ -9,6 +9,7 @@ class Calculator extends SimpleCalculator{
         return this.x+this.y;
     }
     sub(){
+        //subtracts x and y
         return this.x-this.y;
     }
     mul(){
